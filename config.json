@@ -1,0 +1,17 @@
+{
+  "main": "./contracts/BEP20.sol",
+  "deploy": "./build/contracts/BEP20Token.json",
+  "framework": "truffle",
+  "npmClient": "yarn",
+  "compilers": {
+    "solc": "0.5.17",
+    "truffle": "v5.4.3",
+    "evmVersion": "istanbul"
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Hack",
+    "fontSize": "13px",
+    "ligatures": false
+  }
+}

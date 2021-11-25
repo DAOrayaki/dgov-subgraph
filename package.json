@@ -1,0 +1,38 @@
+{
+  "name": "dgov-subgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "truffle": "5.4.6",
+    "@gnosis.pm/conditional-tokens-contracts": "1.0.3",
+    "@gnosis.pm/conditional-tokens-market-makers": "1.8.1",
+    "@gnosis.pm/util-contracts": "3.0.0-alpha.3",
+    "bignumber.js": "^9.0.1",
+    "canonical-weth": "^1.4.0",
+    "decimal.js-light": "^2.5.1",
+    "@graphprotocol/graph-cli": "^0.23.2",
+    "@graphprotocol/graph-ts": "^0.23.1"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "deploy": "truffle deploy",
+    "recreate": "truffle migrate -f 11",
+    "create": "graph create rembern/testhegraph --node https://api.thegraph.com/deploy/",
+    "create-local": "graph create rembern/testhegraph --node http://127.0.0.1:8020",
+    "codegen": "graph codegen",
+    "build-graph": "graph build",
+    "deploy-graph": "graph deploy rembern/testhegraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+    "deploy-local": "graph deploy rembern/testhegraph --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "deploy-half": "graph deploy rembern/testhegraph --ipfs https://api.thegraph.com/ipfs/ --node http://127.0.0.1:8020"
+
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "truffle": "^5.0.4",
+    "truffle-contract": "^4.0.5",
+    "truffle-hdwallet-provider": "^1.0.4"
+  }
+
+}

@@ -1,0 +1,92 @@
+{
+  "network": "bsc-testnet",
+  "codeHash": "0x36a9e96faf940e7259ff0e624620fbf2bb2473f60d9d7931006f6459192ed85b",
+  "array": [],
+  "json": {},
+  "obj": {},
+  "empty": true,
+  "receipt": {
+    "to": null,
+    "from": "0xB09Ec39968312aDB15057345d961f4a771d228Fa",
+    "contractAddress": "0xe874D953482504C924Fc3b5f90a67CaFf9ecE628",
+    "transactionIndex": 8,
+    "gasUsed": "225237",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x0d260fc9a6022fd6d953386eb1adba94ef1a2911215ce382165fc3702a5d17a9",
+    "transactionHash": "0x2d1ab34ca193ba7e7ff3a76f8b29243d09c5eb54db7149346e3dc5a72c14b8f5",
+    "logs": [],
+    "blockNumber": 14104703,
+    "cumulativeGasUsed": "875486",
+    "status": 1,
+    "type": 0,
+    "byzantium": true
+  },
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "last_completed_migration",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "completed",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCompleted",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "new_address",
+          "type": "address"
+        }
+      ],
+      "name": "upgrade",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}
