@@ -13,8 +13,10 @@ module.exports = {
   networks: {
     development: {
       host: '127.0.0.1',
-      port: 62743,
-      network_id: '*'
+      port: 8545,
+      network_id: '*',
+      gas: 6721970,
+      gasPrice: 22000000000 // Specified in Wei
     }
   }
 }

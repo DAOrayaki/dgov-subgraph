@@ -1,6 +1,20 @@
-type Gravatar @entity {
+type Condition @entity {
   id: ID!
-  owner: Bytes!
-  displayName: String!
-  imageUrl: String!
+  oracle: Bytes!
+  questionId: Bytes!
+  outcomeSlotCount: Int!
+}
+
+type LMSRMarketMaker @entity {
+  id: ID!
+  creator: Bytes!
+  creationTimestamp: BigInt!
+  collateralToken: Bytes!
+  conditions: [Condition!]!
+  funding: BigInt!
+  fee: BigInt!
+  condition: Condition
+  oracle: Bytes!
+  questionId: Bytes!
+  outcomeSlotCount: Int!
 }
