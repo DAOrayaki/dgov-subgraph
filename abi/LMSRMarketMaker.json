@@ -898,10 +898,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "1182:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1096,7 +1096,7 @@
                                       "name": "this",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6923,
+                                      "referencedDeclaration": 9181,
                                       "src": "1431:4:6",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_LMSRMarketMaker_$2580",
@@ -1344,10 +1344,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              6880,
-                              6881
+                              9138,
+                              9139
                             ],
-                            "referencedDeclaration": 6880,
+                            "referencedDeclaration": 9138,
                             "src": "1481:7:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3355,7 +3355,7 @@
                                         "name": "this",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6923,
+                                        "referencedDeclaration": 9181,
                                         "src": "2857:4:6",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_contract$_LMSRMarketMaker_$2580",
@@ -3608,10 +3608,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              6880,
-                              6881
+                              9138,
+                              9139
                             ],
-                            "referencedDeclaration": 6880,
+                            "referencedDeclaration": 9138,
                             "src": "2907:7:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4603,10 +4603,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "5185:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6307,10 +6307,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -6823,7 +6823,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6923,
+                                              "referencedDeclaration": 9181,
                                               "type": "contract LMSRMarketMaker",
                                               "value": "this"
                                             },
@@ -6930,10 +6930,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        6880,
-                                        6881
+                                        9138,
+                                        9139
                                       ],
-                                      "referencedDeclaration": 6880,
+                                      "referencedDeclaration": 9138,
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -9211,7 +9211,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 6923,
+                                                  "referencedDeclaration": 9181,
                                                   "type": "contract LMSRMarketMaker",
                                                   "value": "this"
                                                 },
@@ -9323,10 +9323,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        6880,
-                                        6881
+                                        9138,
+                                        9139
                                       ],
-                                      "referencedDeclaration": 6880,
+                                      "referencedDeclaration": 9138,
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -10274,10 +10274,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -11662,16 +11662,10 @@
       "links": {
         "Fixed192x64Math": "0x0a89EC4B14cB2ae7589555ea92601B31a9F7c0EF"
       }
-    },
-    "1638147770442": {
-      "events": {},
-      "links": {
-        "Fixed192x64Math": "0x8e6bc00D6e50700a3Cc9C600e9470a9C2C78531D"
-      }
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-29T01:12:40.892Z",
+  "updatedAt": "2021-11-29T00:43:50.360Z",
   "networkType": "ethereum",
   "devdoc": {
     "author": "Alan Lu - <alan.lu@gnosis.pm>",

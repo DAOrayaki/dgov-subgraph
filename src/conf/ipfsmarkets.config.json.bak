@@ -1,0 +1,38 @@
+{
+  "questionId": "0xc6dba78303f144ae08013526c548878938f8128b0cd7f8c55a86786a98b23828",
+  "title": "In season 006, Which proposal will pass and finished in time?",
+  "outcomes": [
+    {
+      "title": "DCP-1: Project cover",
+      "short": "DCP-1"
+    },
+    {
+      "title": "DCP-2: Tools develop",
+      "short": "DCP-2"
+    },
+    {
+      "title": "DCP-3: Tools develop",
+      "short": "DCP-3"
+    },
+    {
+      "title": "DCP-4: Tools develop",
+      "short": "DCP-4"
+    },
+    {
+      "title": "DCP-5: Project cover",
+      "short": "DCP-5"
+    },
+    {
+      "title": "DCP-6: Tools develop",
+      "short": "DCP-6"
+    },
+    {
+      "title": "DCP-7: Tools develop",
+      "short": "DCP-7"
+    },
+    {
+      "title": "DCP-8: Tools develop",
+      "short": "DCP-8"
+    }
+  ]
+}

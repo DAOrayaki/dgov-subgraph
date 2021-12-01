@@ -1693,10 +1693,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "1898:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1890,7 +1890,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 6877,
+                                "referencedDeclaration": 9135,
                                 "src": "2057:3:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -2000,10 +2000,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6881,
+                      "referencedDeclaration": 9139,
                       "src": "1983:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2233,10 +2233,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6881,
+                      "referencedDeclaration": 9139,
                       "src": "2626:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2347,7 +2347,7 @@
                                       "name": "msg",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6877,
+                                      "referencedDeclaration": 9135,
                                       "src": "2884:3:8",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_magic_message",
@@ -2377,7 +2377,7 @@
                                         "name": "this",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6921,
+                                        "referencedDeclaration": 9179,
                                         "src": "2904:4:8",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -2705,10 +2705,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              6880,
-                              6881
+                              9138,
+                              9139
                             ],
-                            "referencedDeclaration": 6880,
+                            "referencedDeclaration": 9138,
                             "src": "2847:7:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3507,10 +3507,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              6880,
-                              6881
+                              9138,
+                              9139
                             ],
-                            "referencedDeclaration": 6880,
+                            "referencedDeclaration": 9138,
                             "src": "3358:7:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4527,10 +4527,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6881,
+                      "referencedDeclaration": 9139,
                       "src": "4067:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -4659,7 +4659,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6921,
+                                  "referencedDeclaration": 9179,
                                   "src": "4329:4:8",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -4756,7 +4756,7 @@
                                       "name": "this",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6921,
+                                      "referencedDeclaration": 9179,
                                       "src": "4384:4:8",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -5275,7 +5275,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6921,
+                              "referencedDeclaration": 9179,
                               "src": "4723:4:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -5491,10 +5491,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "4764:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5730,10 +5730,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "6862:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6333,10 +6333,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "7253:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6675,10 +6675,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "7331:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6789,7 +6789,7 @@
                                       "name": "msg",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 6877,
+                                      "referencedDeclaration": 9135,
                                       "src": "7557:3:8",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_magic_message",
@@ -6819,7 +6819,7 @@
                                         "name": "this",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 6921,
+                                        "referencedDeclaration": 9179,
                                         "src": "7577:4:8",
                                         "typeDescriptions": {
                                           "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -7147,10 +7147,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              6880,
-                              6881
+                              9138,
+                              9139
                             ],
-                            "referencedDeclaration": 6880,
+                            "referencedDeclaration": 9138,
                             "src": "7503:7:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7910,7 +7910,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 6877,
+                            "referencedDeclaration": 9135,
                             "src": "8401:3:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -7940,7 +7940,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6921,
+                              "referencedDeclaration": 9179,
                               "src": "8421:4:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -8279,7 +8279,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6877,
+                          "referencedDeclaration": 9135,
                           "src": "8623:3:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -9016,7 +9016,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6921,
+                              "referencedDeclaration": 9179,
                               "src": "9064:4:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -9066,7 +9066,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 6877,
+                            "referencedDeclaration": 9135,
                             "src": "9071:3:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -9276,7 +9276,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 6877,
+                                    "referencedDeclaration": 9135,
                                     "src": "9190:3:8",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -9429,10 +9429,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              6880,
-                              6881
+                              9138,
+                              9139
                             ],
-                            "referencedDeclaration": 6880,
+                            "referencedDeclaration": 9138,
                             "src": "9157:7:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -9858,7 +9858,7 @@
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6921,
+                          "referencedDeclaration": 9179,
                           "src": "9736:4:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -9926,7 +9926,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6921,
+                              "referencedDeclaration": 9179,
                               "src": "9764:4:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -10222,7 +10222,7 @@
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6921,
+                          "referencedDeclaration": 9179,
                           "src": "10051:4:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -10290,7 +10290,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 6921,
+                              "referencedDeclaration": 9179,
                               "src": "10079:4:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_MarketMaker_$3937",
@@ -13946,10 +13946,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -14080,10 +14080,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6881,
+                              "referencedDeclaration": 9139,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -14265,7 +14265,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 6877,
+                                          "referencedDeclaration": 9135,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -14594,10 +14594,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6881,
+                              "referencedDeclaration": 9139,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -14767,10 +14767,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        6880,
-                                        6881
+                                        9138,
+                                        9139
                                       ],
-                                      "referencedDeclaration": 6880,
+                                      "referencedDeclaration": 9138,
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -14870,7 +14870,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 6877,
+                                                  "referencedDeclaration": 9135,
                                                   "type": "msg",
                                                   "value": "msg"
                                                 },
@@ -14923,7 +14923,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 6921,
+                                                  "referencedDeclaration": 9179,
                                                   "type": "contract MarketMaker",
                                                   "value": "this"
                                                 },
@@ -15853,10 +15853,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        6880,
-                                        6881
+                                        9138,
+                                        9139
                                       ],
-                                      "referencedDeclaration": 6880,
+                                      "referencedDeclaration": 9138,
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -16944,10 +16944,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6881,
+                              "referencedDeclaration": 9139,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -17477,7 +17477,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 6921,
+                                          "referencedDeclaration": 9179,
                                           "type": "contract MarketMaker",
                                           "value": "this"
                                         },
@@ -17638,7 +17638,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6921,
+                                              "referencedDeclaration": 9179,
                                               "type": "contract MarketMaker",
                                               "value": "this"
                                             },
@@ -18032,7 +18032,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6921,
+                                      "referencedDeclaration": 9179,
                                       "type": "contract MarketMaker",
                                       "value": "this"
                                     },
@@ -18086,10 +18086,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -18510,10 +18510,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -19163,10 +19163,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -19368,10 +19368,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -19679,10 +19679,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        6880,
-                                        6881
+                                        9138,
+                                        9139
                                       ],
-                                      "referencedDeclaration": 6880,
+                                      "referencedDeclaration": 9138,
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -19782,7 +19782,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 6877,
+                                                  "referencedDeclaration": 9135,
                                                   "type": "msg",
                                                   "value": "msg"
                                                 },
@@ -19835,7 +19835,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 6921,
+                                                  "referencedDeclaration": 9179,
                                                   "type": "contract MarketMaker",
                                                   "value": "this"
                                                 },
@@ -20951,7 +20951,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6877,
+                                      "referencedDeclaration": 9135,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -21004,7 +21004,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6921,
+                                      "referencedDeclaration": 9179,
                                       "type": "contract MarketMaker",
                                       "value": "this"
                                     },
@@ -21327,7 +21327,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6877,
+                                  "referencedDeclaration": 9135,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -22154,7 +22154,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6921,
+                                      "referencedDeclaration": 9179,
                                       "type": "contract MarketMaker",
                                       "value": "this"
                                     },
@@ -22185,7 +22185,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6877,
+                                      "referencedDeclaration": 9135,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -22342,10 +22342,10 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        6880,
-                                        6881
+                                        9138,
+                                        9139
                                       ],
-                                      "referencedDeclaration": 6880,
+                                      "referencedDeclaration": 9138,
                                       "type": "function (bool) pure",
                                       "value": "require"
                                     },
@@ -22426,7 +22426,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6877,
+                                              "referencedDeclaration": 9135,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -22994,7 +22994,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6921,
+                                  "referencedDeclaration": 9179,
                                   "type": "contract MarketMaker",
                                   "value": "this"
                                 },
@@ -23049,7 +23049,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 6921,
+                                          "referencedDeclaration": 9179,
                                           "type": "contract MarketMaker",
                                           "value": "this"
                                         },
@@ -23405,7 +23405,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6921,
+                                  "referencedDeclaration": 9179,
                                   "type": "contract MarketMaker",
                                   "value": "this"
                                 },
@@ -23460,7 +23460,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 6921,
+                                          "referencedDeclaration": 9179,
                                           "type": "contract MarketMaker",
                                           "value": "this"
                                         },
@@ -25881,7 +25881,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-29T01:12:07.457Z",
+  "updatedAt": "2021-11-29T00:43:36.331Z",
   "devdoc": {
     "methods": {
       "calcMarketFee(uint256)": {

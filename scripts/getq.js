@@ -47,7 +47,19 @@ var ipfs_http_client_1 = require("ipfs-http-client");
 var writeToConfig = require("./utils/writeToConfig");
 var markets = require("../markets.config");
 var newMarkets = require("../src/conf/ipfsmarkets.config.json");
-var client = (0, ipfs_http_client_1.create)('http://127.0.0.1:5001');
+var bs58 = require('bs58');
+// const client = create('http://localhost:5001')
+//@ts-ignore
+var client = (0, ipfs_http_client_1.create)("http://162.62.52.82:5001");
+function getIpfsHashFromBytes32(bytes32Hex) {
+    // Add our default ipfs values for first 2 bytes:
+    // function:0x12=sha2, size:0x20=256 bits
+    // and cut off leading "0x"
+    var hashHex = "1220" + bytes32Hex.slice(2);
+    var hashBytes = Buffer.from(hashHex, 'hex');
+    var hashStr = bs58.encode(hashBytes);
+    return hashStr;
+}
 function main() {
     var e_1, _a;
     return __awaiter(this, void 0, void 0, function () {
@@ -56,6 +68,7 @@ function main() {
             switch (_b.label) {
                 case 0:
                     cid = newMarkets.questionId;
+                    cid = getIpfsHashFromBytes32(cid);
                     stream = client.cat(cid);
                     data = '';
                     _b.label = 1;

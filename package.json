@@ -34,7 +34,9 @@
     "web3": "^1.2.6",
     "truffle": "^5.0.4",
     "truffle-contract": "^4.0.5",
-    "truffle-hdwallet-provider": "^1.0.4"
+    "truffle-hdwallet-provider": "^1.0.4",
+    "ipfs-core": "^0.12.2",
+    "ipfs-http-client": "^54.0.2"
   },
   
   "scripts": {
@@ -47,8 +49,9 @@
     "build-graph": "graph build",
     "deploy-graph": "graph deploy rembern/dgovgraph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
     "deploy-local": "graph deploy rembern/dgovgraph --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy-half": "graph deploy rembern/dgovgraph --ipfs https://api.thegraph.com/ipfs/ --node http://127.0.0.1:8020"
-
+    "deploy-half": "graph deploy rembern/dgovgraph --ipfs https://api.thegraph.com/ipfs/ --node http://127.0.0.1:8020",
+    "build-scripts": "tsc scripts/createq.tsx",
+    "upload-config": "node scripts/createq.js"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",

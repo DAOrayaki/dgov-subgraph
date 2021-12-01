@@ -296,7 +296,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6864,
+                        "referencedDeclaration": 9122,
                         "src": "330:3:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -982,10 +982,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "1329:7:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1498,7 +1498,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6864,
+                                  "referencedDeclaration": 9122,
                                   "type": "abi",
                                   "value": "abi"
                                 },
@@ -2154,10 +2154,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2291,7 +2291,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-29T01:12:07.471Z",
+  "updatedAt": "2021-11-29T00:43:36.347Z",
   "devdoc": {
     "methods": {}
   },

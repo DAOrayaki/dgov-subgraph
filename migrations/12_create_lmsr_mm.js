@@ -6,9 +6,17 @@ const writeToConfig = require("./utils/writeToConfig");
 
 module.exports = function(deployer) {
   deployer.then(async () => {
-    const markets = require("../markets.config");
+    // const markets = require("../markets.config");
+    // const conditionIds = markets.map(({ questionId }) =>
+    //   web3.utils.soliditySha3(
+    //     { t: "address", v: deployConfig.oracle },
+    //     { t: "bytes32", v: questionId },
+    //     { t: "uint", v: 8 }
+    //   )
+    // );
+
     const newMarkets = require("../src/conf/ipfsmarkets.config.json")
-    const questionId = newMarkets.questionId
+    // const questionId = newMarkets.questionId
     // const conditionIds = markets.map(({ questionId }) =>
     //   web3.utils.soliditySha3(
     //     { t: "address", v: deployConfig.oracle },
@@ -23,15 +31,19 @@ module.exports = function(deployer) {
         { t: "uint", v: newMarkets.outcomes.length })
     ]
 
+
     // const WETH9 = artifacts.require("WETH9");
     const YAKI = artifacts.require("YAKI");
-    // const collateralToken = await WETH9.deployed();
+    
+    // const collateralToken2 = await WETH9.deployed();
     const collateralToken = await YAKI.deployed();
 
 
     const lmsrMarketMakerFactory = await artifacts
       .require("LMSRMarketMakerFactory")
       .deployed();
+
+    console.log(lmsrMarketMakerFactory.address)
 
     lmsrMarketMakerFactory.autoGas = true;
     lmsrMarketMakerFactory.gasMultiplier = 0.1;
@@ -44,6 +56,8 @@ module.exports = function(deployer) {
     const conditionalTokens = await artifacts
       .require("ConditionalTokens")
       .deployed();
+
+    console.log(conditionalTokens.address)
 
     const lmsrFactoryTx = await lmsrMarketMakerFactory.createLMSRMarketMaker(
       conditionalTokens.address,
@@ -71,7 +85,8 @@ module.exports = function(deployer) {
       network: process.env.REACT_APP_NETWORK || "local",
       networkId: await web3.eth.net.getId(),
       lmsrAddress,
-      markets
+      // markets
+      newMarkets
     });
   });
 };

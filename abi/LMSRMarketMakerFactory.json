@@ -1735,7 +1735,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6864,
+                        "referencedDeclaration": 9122,
                         "src": "2141:3:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -1804,7 +1804,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6877,
+                        "referencedDeclaration": 9135,
                         "src": "2240:3:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -2489,10 +2489,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6880,
+                      "referencedDeclaration": 9138,
                       "src": "2584:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3413,10 +3413,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        6880,
-                        6881
+                        9138,
+                        9139
                       ],
-                      "referencedDeclaration": 6881,
+                      "referencedDeclaration": 9139,
                       "src": "3176:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -4922,7 +4922,7 @@
                                   "name": "abi",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6864,
+                                  "referencedDeclaration": 9122,
                                   "src": "4550:3:7",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_abi",
@@ -5049,7 +5049,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6877,
+                          "referencedDeclaration": 9135,
                           "src": "4658:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -5079,7 +5079,7 @@
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 6929,
+                            "referencedDeclaration": 9187,
                             "src": "4678:4:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_LMSRMarketMakerFactory_$3016",
@@ -5491,7 +5491,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6877,
+                          "referencedDeclaration": 9135,
                           "src": "4892:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -5577,7 +5577,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6877,
+                          "referencedDeclaration": 9135,
                           "src": "4942:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -7561,7 +7561,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6864,
+                                  "referencedDeclaration": 9122,
                                   "type": "abi",
                                   "value": "abi"
                                 },
@@ -7745,7 +7745,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6877,
+                                  "referencedDeclaration": 9135,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -8266,10 +8266,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6880,
+                              "referencedDeclaration": 9138,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -9391,10 +9391,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                6880,
-                                6881
+                                9138,
+                                9139
                               ],
-                              "referencedDeclaration": 6881,
+                              "referencedDeclaration": 9139,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -11275,7 +11275,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6864,
+                                              "referencedDeclaration": 9122,
                                               "type": "abi",
                                               "value": "abi"
                                             },
@@ -11462,7 +11462,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6877,
+                                  "referencedDeclaration": 9135,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -11515,7 +11515,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6929,
+                                  "referencedDeclaration": 9187,
                                   "type": "contract LMSRMarketMakerFactory",
                                   "value": "this"
                                 },
@@ -11936,7 +11936,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6877,
+                                  "referencedDeclaration": 9135,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -12037,7 +12037,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6877,
+                                  "referencedDeclaration": 9135,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -12277,119 +12277,10 @@
       },
       "address": "0x4a9cd1a5aB184e8f49b61dc08b70a7472Cbf5204",
       "transactionHash": "0x95969a22859781abb2b891ebc8c73e5035c8b7471239e4b56e036afd051f2aed"
-    },
-    "1638147770442": {
-      "events": {
-        "0x631ac92e0a879a687b1bd27a7dcbf3ec0be307aa0a1046c0df4109be02c49307": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "initialFunding",
-              "type": "uint256"
-            }
-          ],
-          "name": "AMMCreated",
-          "type": "event"
-        },
-        "0x3d2b821286d97aa9d35330d87a82f7b548b9737b10e2d1ba59994edfd50e9d2b": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "target",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "address",
-              "name": "clone",
-              "type": "address"
-            }
-          ],
-          "name": "CloneCreated",
-          "type": "event"
-        },
-        "0x6867cd3ddf1a2f1ce80923be4ebe91b6cdab90ef2266e1b5c38c3e509ad0d8f8": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "creator",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "contract LMSRMarketMaker",
-              "name": "lmsrMarketMaker",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "contract ConditionalTokens",
-              "name": "pmSystem",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "contract IERC20",
-              "name": "collateralToken",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "bytes32[]",
-              "name": "conditionIds",
-              "type": "bytes32[]"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint64",
-              "name": "fee",
-              "type": "uint64"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "funding",
-              "type": "uint256"
-            }
-          ],
-          "name": "LMSRMarketMakerCreation",
-          "type": "event"
-        },
-        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "previousOwner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "newOwner",
-              "type": "address"
-            }
-          ],
-          "name": "OwnershipTransferred",
-          "type": "event"
-        }
-      },
-      "links": {
-        "Fixed192x64Math": "0x8e6bc00D6e50700a3Cc9C600e9470a9C2C78531D"
-      },
-      "address": "0x0084B0E50EBE520ed4fD36b81fcD7c565f384C61",
-      "transactionHash": "0x9c666e9b85434075e75814e6cf13c476cab388079656adffdcac5f11956247d2"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-29T01:12:53.871Z",
+  "updatedAt": "2021-11-29T00:44:03.115Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
