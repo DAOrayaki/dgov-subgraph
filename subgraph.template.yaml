@@ -1,0 +1,51 @@
+specVersion: 0.0.2
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: ConditionalTokens
+    # network: chapel ## bsc
+    # network: mainnet
+    network: {{network}}
+    source:
+      # address: "0x75aAF1E29CD6Bd6E18f389E1bc44F33C720CC897" ## chapel
+      address: "{{conditionalTokens}}"
+      # address: "0xCfEB869F69431e42cdB54A4F4f105C19C080A601"
+      abi: ConditionalTokens
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Condition
+      abis:
+        - name: ConditionalTokens
+          file: ./abis/ConditionalTokens.json
+      eventHandlers:
+        - event: ConditionPreparation(indexed bytes32,indexed address,indexed bytes32,uint256)
+          handler: handleConditionPreparation
+      file: ./src/mappings/ConditionalTokensMapping.ts
+  - kind: ethereum/contract
+    name: LMSRMarketMaker 
+    # network: chapel
+    # network: mainnet
+    network: {{network}}
+    source:
+      address: "{{lmsrMarketMakerFactory}}"
+      # address: '0xFaCD6de314Ab61e4F49C4d6916C5102e4F48bEA8'
+      # address: "0xA586074FA4Fe3E546A132a16238abe37951D41fE" ## chapel
+      abi: LMSRMarketMakerFactory
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Condition
+        - LMSRMarketMaker
+      abis:
+        - name: LMSRMarketMakerFactory
+          file: ./abis/LMSRMarketMakerFactory.json
+      eventHandlers:
+        - event: LMSRMarketMakerCreation(indexed address,address,address,address,bytes32[],uint64,uint256)
+          handler: handleLMSRMarketMakerCreation
+      file: ./src/mappings/LMSRMarketMakerMapping.ts

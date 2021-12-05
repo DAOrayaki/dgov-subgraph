@@ -1,0 +1,5 @@
+{
+    "network": "mainnet",
+    "conditionalTokens": "0x75aAF1E29CD6Bd6E18f389E1bc44F33C720CC897",
+    "lmsrMarketMakerFactory": "0xFaCD6de314Ab61e4F49C4d6916C5102e4F48bEA8"
+}

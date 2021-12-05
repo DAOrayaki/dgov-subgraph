@@ -1,7 +1,7 @@
 {
   "network": "local",
   "networkId": 97,
-  "lmsrAddress": "0x2466f5474334dA5C40380886b520D8b15262C5f2",
+  "lmsrAddress": "0x4193078C3b87013D1D35f1e6A26e2fA52cc6ee89",
   "markets": [
     {
       "questionId": "0x4b22fe478b95fdaa835ddddf631ab29f12900b62061e0c5fd8564ddb7b684345",
@@ -43,8 +43,8 @@
     }
   ],
   "newMarkets": {
-    "questionId": "0x16094a3c2024fe7273e790467cfb04df0c94d78de5b08b33424b61ef14098081",
-    "title": "In season 007, Which proposal will pass and finished in time?",
+    "questionId": "0x6260ec14c2b2a91c4c72c4b3ad498ecf9e12184d25e0eafe8d7e4f75bb7a1f10",
+    "title": "In season 008, Which proposal will pass and finished in time?",
     "outcomes": [
       {
         "title": "DCP-1: Project cover",

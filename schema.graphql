@@ -1,3 +1,10 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  owner: Bytes! # address
+  operator: Bytes! # address
+}
+
 type Condition @entity {
   id: ID!
   oracle: Bytes!
